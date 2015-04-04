@@ -17,6 +17,10 @@ cercare (su internet)	shiraberu 	調べる
 mandare (file)			okuru		送る
 arrabbiarsi				okoru		怒る
 
+Transitive Verbs: There is an active agent doing an action. As in "I opened the door." You are doing the action of opening the door (or some active agent is doing that action).
+
+Intransitive Verb: There is no direct agent, but something occurs. As in "the door opened." No active agent is opening the door, it just happens.
+
 	[kotoba] 
 
 appuntamento			yakusoku	約束
