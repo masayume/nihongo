@@ -1,5 +1,7 @@
 #general nihongo notes
 
+http://sakuramagazine.com/jlpt-n4-grammatica/
+http://sakuramagazine.com/jlpt-n5-grammatica/
 https://flipboard.com/
 https://twitter.com/calxdesign
 http://www.ted.com/talks/guy_winch_the_case_for_emotional_hygiene
@@ -31,7 +33,7 @@ resto					otsuri
 per quante settimane	nanshuukan
  "    "    mesi			nankagetsu
  "    "    giorni		nannichi
-una volta l'anno		ichinen ni ikkai
+una volta l'anno		ichinen ni ikkai (')
 una volta a settimana	isshukan ni ikkai
 da Y anni				Y.nen mae kara
 X anni fa				X.nen mae ni 
@@ -107,7 +109,7 @@ lentamente				yukkuri
  
   ><  ><  ><  ><  ><  ><  ><  ><  ><  ><  ><  ><  ><  ><  ><  ><  ><  ><  ><  >< 
 
- > Group 1 Verbs <
+ > Group 1 Verbs < ('i')
 
 aruku		歩く	to walk			aruKImasu 歩きます		aruITE 歩いて
 asobu		遊ぶ	to play			asoBImasu 遊びます		asoNDE 遊んで
@@ -138,7 +140,7 @@ wakaru		分かる to understand	wakarimasu 分かります	wakaTTE 分かって
 warau		笑う	to laugh		waraImasu 笑います		waraTTE 笑って
 yomu		読む	to read			yoMImasu 読みます		yoNDE 読んで
 
- > Group 2 Verbs <
+ > Group 2 Verbs < (one sound or 'e')
 
 kangaeru	考える to think		kangaemasu 考えます		kangaete 考えて
 miru		見る	to see			mimasu 見ます			mite 見て
