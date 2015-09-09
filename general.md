@@ -15,9 +15,9 @@
 
 # verbi 
  
-cercare (su internet) | shiraberu | 調べる
-mandare (file)	| okuru	| 送る
-arrabbiarsi | okoru | 怒る
+| cercare (su internet) | shiraberu 	| 調べる|
+| mandare (file)	| okuru		| 送る	|
+| arrabbiarsi 		| okoru 	| 怒る	|
 
 Transitive Verbs: There is an active agent doing an action. As in "I opened the door." You are doing the action of opening the door (or some active agent is doing that action).
 
@@ -25,9 +25,9 @@ Intransitive Verb: There is no direct agent, but something occurs. As in "the do
 
 # kotoba 
 
-appuntamento | yakusoku	| 約束
-contanti | genkin | 
-resto | otsuri |
+| appuntamento 	| yakusoku	| 約束	|
+| contanti 	| genkin 	|     	|
+| resto 	| otsuri 	|	|
 	
 tempo
 =====
@@ -113,34 +113,34 @@ lentamente | yukkuri
 
 ## > Group 1 Verbs < ('i')
 
-aruku	|歩く|	to walk		| aruKImasu 歩きます		| aruITE 歩いて
-asobu	|遊ぶ	to play		| asoBImasu 遊びます		| asoNDE 遊んで
-au	|会う	to meet		| aImasu 会います		| aTTE 会って
-hairu	|入る	to enter	| haiRImasu 入ります		| haiTTE 入って
-hajimaru |始まる to begin	| hajimaRImasu 始まります	| hajimaTTE 始まって
-iku 	|行く	to go		| ikimasu 行きます		| itte 行って
-kaeru	|帰る	to return	| kaeRImasu 帰ります		| kaeTTE 帰って
-kakaru	|かかる to take		| kakaRImasu かかります		| kakaTTE かかって
-kaku	|書く	to write	| kakImasu 書きます		| kaITE 書いて
-kau	|買う	to buy		| kaImasu 買います		| kaTTE 買って
-kiku	|聞く	to listen	| kiKImasu 聞きます		| kiITE 聞いて
-matsu	|待つ	to wait		| maCHImasu 待ちます		| maTTE 待って
-motsu	|持つ	to have		| moCHImasu 持ちます		| moTTE 持って
-narau	|習う	to learn	| naraImasu 習います		| naraTTE 習って
-nomu	|飲む	to drink	| noMImasu 飲みます		| noNDE 飲んで
-okuru	|送る	to send		| okuRImasu 送ります		| okuTTE 送って
-omou	|思う	to think	| omoImasu 思います		| omoTTE 思って
-oyogu	|泳ぐ	to swim		| oyoGImasu 泳ぎます		| oyoIDE 泳いで
-shiru	|知る	to know		| shiRImasu 知ります		| shiTTE 知って
-suwaru	|座る	to sit		| suwaRImasu 座ります		| suwaTTE 座って
-tatsu	|立つ	to stand	| taCHImasu 立ちます		| taTTE 立って
-tomaru	|止まる to stop		| tomaRImasu 止まります		| tomaTTE 止まって
-tsuku	|着く	to arrive	| tsuKImasu 着きます		| tsuITE 着いて
-uru	|売る	to sell		| uRImasu 売ります		| uTTE 売って
-utau	|歌う	to sing		| utaImasu 歌います		| utaTTE 歌って
-wakaru	|分かる to understand	| wakarimasu 分かります		| wakaTTE 分かって
-warau	|笑う	to laugh	| waraImasu 笑います		| waraTTE 笑って
-yomu	|読む	to read		| yoMImasu 読みます		| yoNDE 読んで
+| aruku		|歩く	| to walk	| aruKImasu 	| 歩きます	| aruITE 歩いて | 
+| asobu		|遊ぶ	| to play	| asoBImasu 	| 遊びます	| asoNDE 遊んで | 
+| au		|会う	| to meet	| aImasu	| 会います	| aTTE 会って | 
+| hairu		|入る	| to enter	| haiRImasu 	| 入ります	| haiTTE 入って | 
+| hajimaru	|始まる	| to begin	| hajimaRImasu 	| 始まります	| hajimaTTE 始まって | 
+| iku 		|行く	| to go		| ikimasu 	| 行きます	| itte 行って | 
+| kaeru		|帰る	| to return	| kaeRImasu 	| 帰ります	| kaeTTE 帰って | 
+| kakaru	|かかる | to take	| kakaRImasu 	| かかります	| kakaTTE かかって | 
+| kaku		|書く	| to write	| kakImasu 	| 書きます	| kaITE 書いて | 
+| kau		|買う	| to buy	| kaImasu 	| 買います	| kaTTE 買って | 
+| kiku		|聞く	| to listen	| kiKImasu 	| 聞きます	| kiITE 聞いて | 
+| matsu		|待つ	| to wait	| maCHImasu 	| 待ちます	| maTTE 待って | 
+| motsu		|持つ	| to have	| moCHImasu 	| 持ちます	| moTTE 持って | 
+| narau		|習う	| to learn	| naraImasu 	| 習います	| naraTTE 習って | 
+| nomu		|飲む	| to drink	| noMImasu 	| 飲みます	| noNDE 飲んで | 
+| okuru		|送る	| to send	| okuRImasu 	| 送ります	| okuTTE 送って | 
+| omou		|思う	| to think	| omoImasu 	| 思います	| omoTTE 思って | 
+| oyogu		|泳ぐ	| to swim	| oyoGImasu 	| 泳ぎます	| oyoIDE 泳いで | 
+| shiru		|知る	| to know	| shiRImasu 	| 知ります	| shiTTE 知って | 
+| suwaru	|座る	| to sit	| suwaRImasu 	| 座ります	| suwaTTE 座って | 
+| tatsu		|立つ	| to stand	| taCHImasu 	| 立ちます	| taTTE 立って | 
+| tomaru	|止まる | to stop	| tomaRImasu 	| 止まります	| tomaTTE 止まって | 
+| tsuku		|着く	| to arrive	| tsuKImasu 	| 着きます	| tsuITE 着いて | 
+| uru		|売る	| to sell	| uRImasu 	| 売ります	| uTTE 売って | 
+| utau		|歌う	| to sing	| utaImasu 	| 歌います	| utaTTE 歌って | 
+| wakaru	|分かる | to understand	| wakarimasu 	| 分かります	| wakaTTE 分かって | 
+| warau		|笑う	| to laugh	| waraImasu 	| 笑います	| waraTTE 笑って | 
+| yomu		|読む	| to read	| yoMImasu 	| 読みます	| yoNDE 読んで | 
 
 ## > Group 2 Verbs < (one sound or 'e')
 
