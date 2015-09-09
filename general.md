@@ -1,19 +1,19 @@
 #general nihongo notes
 
-http://sakuramagazine.com/jlpt-n4-grammatica/
-http://sakuramagazine.com/jlpt-n5-grammatica/
-https://flipboard.com/
-https://twitter.com/calxdesign
-http://www.ted.com/talks/guy_winch_the_case_for_emotional_hygiene
-http://www.ted.com/talks/heribert_watzke_the_brain_in_your_gut
-http://www.vectology.com/tutorials/
-http://www.vectology.com/how-to-create-awesome-line-art-in-adobe-illustrator/
-http://www.tofugu.com/videos/the-4-most-commonly-believed-myths-about-learning-japanese/
+[JLPT N4 grammatica](http://sakuramagazine.com/jlpt-n4-grammatica/)
+[JLPT N5 grammatica](http://sakuramagazine.com/jlpt-n5-grammatica/)
+[](https://flipboard.com/)
+[](https://twitter.com/calxdesign)
+[](http://www.ted.com/talks/guy_winch_the_case_for_emotional_hygiene)
+[](http://www.ted.com/talks/heribert_watzke_the_brain_in_your_gut)
+[](http://www.vectology.com/tutorials/)
+[](http://www.vectology.com/how-to-create-awesome-line-art-in-adobe-illustrator/)
+[](http://www.tofugu.com/videos/the-4-most-commonly-believed-myths-about-learning-japanese/)
 
  ><  ><  ><  ><  ><  ><  ><  ><  ><  ><  ><  ><  ><  ><  ><  ><  ><  ><  ><  >< 
 
 
-	[kotoba: verbi] 
+# verbi 
  
 cercare (su internet)	shiraberu 	調べる
 mandare (file)			okuru		送る
@@ -23,13 +23,15 @@ Transitive Verbs: There is an active agent doing an action. As in "I opened the 
 
 Intransitive Verb: There is no direct agent, but something occurs. As in "the door opened." No active agent is opening the door, it just happens.
 
-	[kotoba] 
+# kotoba 
 
 appuntamento			yakusoku	約束
 contanti				genkin
 resto					otsuri
 	
-	[tempo] 
+tempo
+=====
+ 
 per quante settimane	nanshuukan
  "    "    mesi			nankagetsu
  "    "    giorni		nannichi
