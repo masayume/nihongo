@@ -1,8 +1,9 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/desandro/pen/nFrte.
 
-VIDEO GAME DESIGN ELEMENTS TABLE
+masayume JAPANESE LANGUAGE PERIODIC TABLE OF GRAMMAR FORMS
 
-- port & create images
-- add titles, genres
-- convert filters (tags in elements and on the main page)
-- review background and general layout
+- ALL JLPT N5 FORMS
+- ALL JLPT N4 FORMS
+- JLPT N3: work in progress
+
+
+Inspired from a Pen created at CodePen.io. You can find this one at http://codepen.io/desandro/pen/nFrte.
