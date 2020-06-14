@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html >
+<html lang="ja-jp">
 <head>
   <meta charset="UTF-8">
   <title>masayume - japanese grammar forms N5, N4, N3 (WiP)</title>
@@ -9,10 +9,26 @@
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
 <!------ sidebar ---------->
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+        h1, h1:lang(ja-jp) { 
+            font-family: serif; 
+            font-size: 24px; 
+            font-weight: normal; 
+            }
+        h2, h2:lang(ja-jp) { 
+            font-family: sans-serif; 
+            font-size: 24px; 
+            font-weight: normal; 
+            }
+        h3, h3:lang(ja-jp) { 
+            font-family: cursive; 
+            font-size: 24px; 
+            font-weight: normal; 
+            }
+    </style>
 </head>
 
 <!--
@@ -20,6 +36,7 @@
 TO DO: 
 
 usare i panel come in catalogo su monicamarelli/ART
+onomatopee: https://www.tofugu.com/japanese/japanese-onomatopoeia/
 
 -->
 
@@ -51,11 +68,14 @@ usare i panel come in catalogo su monicamarelli/ART
 -->
 <!-- END DYNAMIC SIDEBAR -->
 
-    <div class="main">
-      <h3>masayume - japanese grammar forms N5, N4, N3 (WiP)</h3>
+<div class="main">
 
-<div class="ui-group">
-  <div id="filters" class="button-group">  
+<div class="ui-group" >
+  <div id="pagetitle" style="float: left;">
+      masayume - japanese grammar forms N5, N4, N3 (WiP)
+  </div>
+
+  <div id="filters" class="button-group" style="float: right;">  
     <button class="button is-checked" data-filter="*">show all</button>
     <button class="button" data-filter=".N5">N5</button>
     <button class="button" data-filter=".N4">N4</button>
@@ -63,8 +83,10 @@ usare i panel come in catalogo su monicamarelli/ART
     <button class="button" data-filter=".dictionary">dict.</button>
     <button class="button" data-filter=".masu">masu</button>
     <button class="button" data-filter=".desu">desu</button>
+    <button class="button" data-filter=".plain">plain</button>
     <button class="button" data-filter=".te">te</button>
     <button class="button" data-filter=".ta">ta</button>
+    <button class="button" data-filter=".meanings">+ means</button>
     <button class="button" data-filter=".negative">neg.</button>
     <button class="button" data-filter=".passive">pass.</button>
     <button class="button" data-filter=".adjective">adj.</button>
@@ -81,13 +103,17 @@ usare i panel come in catalogo su monicamarelli/ART
   </div>
 
 <!-- SORTING
-  <div id="sorts" class="button-group">  
+  <div id="sorts" class="button-group" style="float: right;">  
     <button class="button is-checked" data-sort-by="original-order">order</button>
     <button class="button" data-sort-by="name">name</button>
     <button class="button" data-sort-by="category">category</button>
   </div>
 -->
 
+</div>
+
+<div>
+  <br clear="all" />
 </div>
 
 <div class="grid">
@@ -113,6 +139,7 @@ data-filter defined in js/index.js
     <li><a href='https://www.masayume.it/blog/category/categorie/asia'>masayume "asia" category</a></li>
     <li><a href='https://doyouknowjapan.com/'>do you know japan ?</a></li>
     <li><a href='https://www.masayume.it/nihongo/random-kanji-flashcards/kanjipage.php'>masayume - kanji page</a></li>
+    <li><a href='https://www.patreon.com/miku_real_japanese'>Miku Real Japanese</a></li>
 
 <!--
     <li><a href='LINK'>link name</a></li>
@@ -125,8 +152,8 @@ data-filter defined in js/index.js
 
     </div>
 
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
-<script src='http://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js'></script>
 <script src="js/index.js"></script>
 
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
