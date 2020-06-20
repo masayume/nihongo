@@ -394,13 +394,16 @@
       "meanings": "②",
       "img": "001.png",
       "symbol": "～がほしい,～てほしい",
-      "express": "I want (for me); I want others to..",
+      "express": "I want; I want others to..",
       "example": "私はこの本<u>がほしい</u>",
       "examples": [
         "みんなに本を読<u>でほしい</u>です:I want everyone to read the book",
         "(私は)父にたばこをやめてほしいです:I want my father to stop smoking"
       ],
-      "video": ["https://www.youtube.com/watch?v=KJvrLGCbWPE&list=PLP6jQzrtQ718EBgJyqIum7rXtyOL7ksDn&index=6"],
+      "video": [
+        "https://www.youtube.com/watch?v=KJvrLGCbWPE&list=PLP6jQzrtQ718EBgJyqIum7rXtyOL7ksDn&index=6",
+        "https://www.youtube.com/watch?v=_544LGbtvd4"
+      ],
       "translate": "I want this book",
       "level": "N4"
     },
