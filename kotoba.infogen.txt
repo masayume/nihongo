@@ -22,7 +22,6 @@ kotoba
 練習 	renshuu                     習う     narau, imparare 
 進む 	susumu (shin) procedere
 写真 	shashin (foto)
-必要 	hitsuyou 
 研究 	kenkyuu ricerca
 観光 	kankou turismo 
 大会 	taikai manifestazione, gara
@@ -276,6 +275,18 @@ sleep
 画家 	(がか gaka) 			painter
 画面 	(がめん gamen) 		screen 
 版画 	(はんが hanga) 		print art
+
+ Kanji 人    person
+凡人      ぼんじん ordinary person
+悪人      あくにん bad person
+愛人      あいじん mistress
+変人      へんじん weirdo
+巨人      きょじん giant
+魚人      ぎょじん merman
+美人      びじん beautiful lady
+管理人    かんりにん admin
+偉人      いじん historical person
+人参      にんじん carrot
 
  Kanji 気(き) spirit
 気持ち	(きもち) feeling
