@@ -8,44 +8,40 @@ kotoba
 経験　      けいけん esperienza          試験    shiken, esame
 関係、      かんけい relazione           
 野菜        やさい verdura
-週末/未来   しゅうまつ　      weekend (末:end)
+週末/未来   しゅうまつ　      weekend (末:end): [!] 未:un-, not yet
 未来/将来　 しょうらい/みらい  futuro prossimo; futuro remoto (未:un-, not yet)
 
 
 悪　 	warui           必要、   ひつよう, necessità;  必ず、かならず  certamente
 要る　　 いる, necessario; iranai non necessario
-場合 	baai
-問題 	mondai          話題  わだい wadai: topic             
-住   	su (sundeiru)   ! 注文     chuumon (ordine)
-笑   	warau (ridere)  ! 答       kotae
-練習 	renshuu         習う     narau, imparare 
+問題 	mondai          話題  わだい wadai: topic; 内容  ないよう: contenuto             
+住   	su (sundeiru)   [!] 注文     chuumon (ordine)
+掃除     souji  pulizie (掃 scopa 除 rimuovere)
+笑   	warau (ridere)  [!] 答       kotae
+練習 	renshuu         習う     narau, imparare / 教える, おしえる insegnare
 進む 	susumu (shin) procedere
-写真 	shashin (foto)  ! 汚い きたない sporco; 汚れる よごれる: sporcarsi
+写真 	shashin (foto)  [!] 汚い きたない sporco; 汚れる よごれる: sporcarsi
 研究 	kenkyuu ricerca
 観光 	kankou turismo 
-大会 	taikai manifestazione, gara
-運転 	unten  運: un: fortuna; 2° girare (回転 kaiten-zushi)
-連れて 	tsureru, tsureteiku (accompagnare)
+運転 	unten  運: un: fortuna; [!] 連; 2° girare (回転 kaiten-zushi)
+連れて 	tsureru, tsureteiku (accompagnare);    連絡 れんらく: comunicare, contattare
 表す 	hyou tabella -> arawasu esprimere
 目的 	mokuteki, scopo, obiettivo,
 新聞 	shinbun (giornale)
-掃除 	souji  pulizie (掃 scopa 除 rimuovere)
 
 話し合い　	はなしあい 	discussione, discutere
-行き先　		いきさき 		ikisaki destinazione (destinatario) sen/saki = anche LUOGO !
-競争　       きょうそう   competizione    
-判断　       はんだん     giudizio
+行き先　		いきさき 		ikisaki destinazione,destinatario; sen/saki = anche LUOGO !
+競争　       きょうそう   competizione; 戦争 せんそう: guerra    
+判断　       はんだん     giudizio;     断る ことわる: rifiutare
 経済　       けいざい     economia
 電気代　     でんきだい   spese per la corrente
-輸出　		ゆしゅつ 		export
-輸入　		ゆにゅう 		import
+輸出　		ゆしゅつ 		export;      輸入　ゆにゅう: import
 犬を飼う　	かう 		allevare un animale
-断る　　		ことわる 		rifiutare
 			かぎをなくす　perdere
 緊張    		きんちょう 	essere teso
 勇気　		ゆうき 		coraggio
 自然　		しぜん 		natura
-解決　		かいけつ 		risolvere
+解決　		かいけつ 		risolvere;   決める: decidere
 結果　		けっか 		risultato // 果物 くだもの // 結婚　けっこん
 起きる　		おきる 		svegliarsi, succedere
 入学　       にゅうがく    entrare a scuola
@@ -92,6 +88,11 @@ favorites, importanti ★★★
 文書化 		ぶんしょか 	documentation (change); 文献集 ぶんけんしゅう documentation (gather)
 実行 		じっこう 		execution (e.g. of a plan); carrying out; practice; action; implementation; fulfillment; realization
 心得 		こころえ 		knowledge; understanding
+
+easy/learned:
+場合  baai
+大会  taikai manifestazione, gara
+
 
 adjectives
 重い 	おもい heavy 軽い 	かるい light
