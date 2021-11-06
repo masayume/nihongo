@@ -53,7 +53,7 @@ machigai | significato | parole (dis)simili
 電気代　  |   でんきだい   spese per la corrente
 輸出　	|	ゆしゅつ 		export;      輸入　ゆにゅう: import
 犬を飼う　|	かう 		allevare un animale
-		|	かぎをなくす　perdere
+無くす	|	かぎをなくす　perdere
 緊張    	|	きんちょう 	essere teso
 勇気　	|	ゆうき 		coraggio
 自然　	|	しぜん 		natura
@@ -62,7 +62,7 @@ machigai | significato | parole (dis)simili
 起きる　	|	おきる 		svegliarsi, succedere
 入学　   |   にゅうがく    entrare a scuola
 期待する | 	きたい 		aspettativa, 期待する aspettarsi
-注文 	|				ordine
+注文 	|	ちゅうもん	ordine
 発明　　	|	はつめい 		invenzione
 発見　   |    はっけん　   scoperta
 出発　　	|	しゅっぱつ 	partenza
