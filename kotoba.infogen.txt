@@ -4,6 +4,11 @@ kotoba
 ＋tasu −hiku ×kakeru ÷waru ？hatena 〒yuubin bangou ♩onpu 
 € yuuro  〆shime ∞mugen ※komejirushi ♂osu ♀mesu 
 
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
 machigai | significato, parole  
 -------- | ------------------- 
 経験 | けいけん, esperienza; 試験:  shiken, esame 
