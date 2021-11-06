@@ -4,47 +4,44 @@ kotoba
 ＋tasu −hiku ×kakeru ÷waru ？hatena 〒yuubin bangou ♩onpu 
 € yuuro  〆shime ∞mugen ※komejirushi ♂osu ♀mesu 
 
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
 
-machigai | significato, parole  
--------- | ------------------- 
-経験 | けいけん, esperienza; 試験:  shiken, esame 
-関係 | かんけい, relazione 
+
+machigai | significato | parole (dis)simili  
+-------- | ----------- | ------------------ 
+経験 | けいけん, esperienza | 試験:  shiken, esame 
+関係 | かんけい, relazione |
 野菜 | やさい, verdura 
-週末/未来 | しゅうまつ, weekend (末:end): [!] 未:un-, not yet 
-未来/将来 | しょうらい/みらい  futuro prossimo; futuro remoto (未:un-, not yet) 
+週末/未来 | しゅうまつ, weekend | (末:end): [!] 未:un-, not yet 
+未来/将来 | しょうらい/みらい  futuro prossimo/remoto 
 確認 | かくにん, controllare, confermare
 量 | りょう, quantità 
 送料 | そうりょう, spese di spedizione 
 平均 | へいきん, (statura) media 
-予想 | よそう, previsione; 予約, prenotazione; 予定, piano (定: determinare, decidere)
+予想 | よそう, previsione | 予約, prenotazione; 予定, piano (定: determinare, decidere)
 お願い | おねがい, richiesta, favore;  
-存在 | そんざい, esistenza; 現在 げんざい, ora, il presente;      
-xx屋 | xx-や negozio;   教室, きょうしつ aula 
+存在 | そんざい, esistenza | 現在 げんざい, ora, il presente;      
+xx屋 | xx-や negozio | 教室, きょうしつ aula 
 絵 | e: immagine           
-布 | ぬの stoffa    [!] 市  いち,シ, mercato;  
+布 | ぬの stoffa | [!] 市  いち,シ, mercato;  
 混ぜる | まぜる, mescolare  
-悪 | warui; 必要,  ひつよう, necessità;  必ず、かならず  certamente
+悪 | warui; 必要 | ひつよう, necessità;  必ず、かならず  certamente
 要る | いる, necessario; iranai non necessario
-問題 | mondai          話題  わだい wadai: topic; 内容  ないよう: contenuto
-住 | su (sundeiru)   [!] 注文     chuumon (ordine)
-掃除 | souji  pulizie (掃 scopa 除 rimuovere)
-笑 | warau (ridere)  [!] 答       kotae
-練習 | renshuu         習う     narau, imparare / 教える, おしえる insegnare
+問題 | mondai | 話題  わだい wadai: topic; 内容  ないよう: contenuto
+住 | su (sundeiru)  | [!] 注文     chuumon (ordine)
+掃除 | souji  pulizie | (掃 scopa 除 rimuovere)
+笑 | warau (ridere) | [!] 答       kotae
+練習 | renshuu      |  習う     narau, imparare / 教える, おしえる insegnare
 進む | susumu (shin) procedere
-写真 | shashin (foto)  [!] 汚い きたない sporco; 汚れる よごれる: sporcarsi
+写真 | shashin (foto) | [!] 汚い きたない sporco; 汚れる よごれる: sporcarsi
 研究 | kenkyuu ricerca
 観光 | kankou turismo 
-運転 | unten  運: un: fortuna; [!] 連; 2° girare (回転 kaiten-zushi)
-連れて | tsureru, tsureteiku (accompagnare);    連絡 れんらく: comunicare, contattare
-表す | 表: hyou tabella -> arawasu esprimere; 発表 happyou: presentazione 
+運転 | unten  運: | un: fortuna; [!] 連; 2° girare (回転 kaiten-zushi)
+連れて | tsureru, tsureteiku (accompagnare) | 連絡 れんらく: comunicare, contattare
+表す | 表: hyou tabella -> arawasu esprimere | 発表 happyou: presentazione 
 目的 | mokuteki, scopo, obiettivo,
 新聞 | shinbun (giornale)
-違う | chigau = 異なる kotonaru: cambiare ()
-約束 | やくそく promessa; 予約 よやく: appuntamento; 到着: とうちゃく, arrivo;
+違う | chigau | = 異なる kotonaru: cambiare ()
+約束 | やくそく promessa | 予約 よやく: appuntamento; 到着: とうちゃく, arrivo;
 
 話し合い　	はなしあい 	discussione, discutere
 行き先　		いきさき 		ikisaki destinazione,destinatario; sen/saki = anche LUOGO !
