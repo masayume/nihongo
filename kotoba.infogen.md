@@ -43,49 +43,49 @@ xx屋 | xx-や negozio | 教室, きょうしつ aula
 違う | chigau | = 異なる kotonaru: cambiare ()
 約束 | やくそく promessa | 予約 よやく: appuntamento; 到着: とうちゃく, arrivo;
 
-話し合い　	はなしあい 	discussione, discutere
-行き先　		いきさき 		ikisaki destinazione,destinatario; sen/saki = anche LUOGO !
-競争　       きょうそう   competizione; 戦争 せんそう: guerra    
-判断　       はんだん     giudizio;     断る ことわる: rifiutare
-経済　       けいざい     economia
-電気代　     でんきだい   spese per la corrente
-輸出　		ゆしゅつ 		export;      輸入　ゆにゅう: import
-犬を飼う　	かう 		allevare un animale
-			かぎをなくす　perdere
-緊張    		きんちょう 	essere teso
-勇気　		ゆうき 		coraggio
-自然　		しぜん 		natura
-解決　		かいけつ 		risolvere;   決める: decidere
-結果　		けっか 		risultato // 果物 くだもの // 結婚　けっこん
-起きる　		おきる 		svegliarsi, succedere
-入学　       にゅうがく    entrare a scuola
-期待する  	きたい 		aspettativa, 期待する aspettarsi
-注文 					ordine
-発明　　		はつめい 		invenzione
-発見　       はっけん　   scoperta
-出発　　		しゅっぱつ 	partenza
-暮らす　		くらす 		vivere
-社会人　		しゃかいじん 	chi lavora (non studente) 
-募集　　		ぼしゅう 		reclutamento
-問い合わせ　	といあわせ 	rivolgersi
-迷惑をかける　	めいわく 		infastidire (kakeru)
-電源を切る　	でんげん 		spegnere la corrente
-国際　		こくさい 		internazionale
-管理　		かんり 		organizzare, gestire, amministrare
-協力　		きょうりょく 	collaborazione
-努力　       どりょく     forza; = gambaru
-理解　		りかい 		comprensione
-参加　		さんか　 		partecipazione; partecipare
-結ぶ         むすぶ      annodare
-試           try
-行           go, do
-錯           mistake   誤 mistake
-試行錯誤      (しこうさくご shikousakugo)   trial and error
-
-犬を飼う、    inu wo kau
-
-市場、       いちば（しじょう）mercato
-遠足        えんそく    gita scolastica
+machigai | significato | parole (dis)simili  
+-------- | ----------- | ------------------ 
+話し合い　|	はなしあい 	discussione, discutere
+行き先　	|	いきさき 		ikisaki destinazione,destinatario; sen/saki = anche LUOGO !
+競争　    |   きょうそう   competizione; 戦争 せんそう: guerra    
+判断　     |  はんだん     giudizio;     断る ことわる: rifiutare
+経済　    |   けいざい     economia
+電気代　  |   でんきだい   spese per la corrente
+輸出　	|	ゆしゅつ 		export;      輸入　ゆにゅう: import
+犬を飼う　|	かう 		allevare un animale
+		|	かぎをなくす　perdere
+緊張    	|	きんちょう 	essere teso
+勇気　	|	ゆうき 		coraggio
+自然　	|	しぜん 		natura
+解決　	|	かいけつ 		risolvere;   決める: decidere
+結果　	|	けっか 		risultato // 果物 くだもの // 結婚　けっこん
+起きる　	|	おきる 		svegliarsi, succedere
+入学　   |   にゅうがく    entrare a scuola
+期待する | 	きたい 		aspettativa, 期待する aspettarsi
+注文 	|				ordine
+発明　　	|	はつめい 		invenzione
+発見　   |    はっけん　   scoperta
+出発　　	|	しゅっぱつ 	partenza
+暮らす　	|	くらす 		vivere
+社会人　	|	しゃかいじん 	chi lavora (non studente) 
+募集　　	|	ぼしゅう 		reclutamento
+問い合わせ　|	といあわせ 	rivolgersi
+迷惑をかける　|	めいわく 		infastidire (kakeru)
+電源を切る　|	でんげん 		spegnere la corrente
+国際　	|	こくさい 		internazionale
+管理　	|	かんり 		organizzare, gestire, amministrare
+協力　	|	きょうりょく 	collaborazione
+努力　   |    どりょく     forza; = gambaru
+理解　	|	りかい 		comprensione
+参加　	|	さんか　 		partecipazione; partecipare
+結ぶ      |   むすぶ      annodare
+試       |    try
+行       |    go, do
+錯       |    mistake   誤 mistake
+試行錯誤  |    (しこうさくご shikousakugo)   trial and error
+犬を飼う  |   inu wo kau
+市場、    |   いちば（しじょう）mercato
+遠足      |  えんそく    gita scolastica
 
 元気 (な) げんき (な) - fine/energetic
 綺麗 (な) きれい (な) - clean/beautiful
