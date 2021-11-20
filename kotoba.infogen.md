@@ -45,7 +45,7 @@ xx屋 | xx-や negozio | 教室, きょうしつ aula
 
 machigai | significato | parole (dis)simili  
 -------- | ----------- | ------------------ 
-話し合い　|	はなしあい 	discussione, discutere
+話し合い　|	はなしあい 	discussione, discutere; ~= 喧嘩, けんか: litigare
 行き先　	|	いきさき 		ikisaki destinazione,destinatario; sen/saki = anche LUOGO !
 競争　    |   きょうそう   competizione; 戦争 せんそう: guerra    
 判断　     |  はんだん     giudizio;     断る ことわる: rifiutare
@@ -53,7 +53,7 @@ machigai | significato | parole (dis)simili
 電気代　  |   でんきだい   spese per la corrente
 輸出　	|	ゆしゅつ 		export;      輸入　ゆにゅう: import
 犬を飼う　|	かう 		allevare un animale
-無くす	|	かぎをなくす　perdere
+無くす	|	かぎをなくす　 smarrire
 緊張    	|	きんちょう 	essere teso
 勇気　	|	ゆうき 		coraggio
 自然　	|	しぜん 		natura
