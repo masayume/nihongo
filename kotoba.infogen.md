@@ -11,7 +11,7 @@ machigai | significato | parole (dis)simili
 経験 | けいけん, esperienza | 試験:  shiken, esame 
 関係 | かんけい, relazione |
 野菜 | やさい, verdura 
-週末 | しゅうまつ, weekend | (末:end): ⚠️ 未:un-, not yet 
+週末 | しゅうまつ, weekend | (末:end): 末⚠️未:un-, not yet 
 未来/将来 | しょうらい/みらい  futuro prossimo/remoto 
 確認 | かくにん, controllare, confermare
 量 | りょう, quantità 
@@ -20,22 +20,22 @@ machigai | significato | parole (dis)simili
 予想 | よそう, previsione | 予約, prenotazione; 予定, piano (定: determinare, decidere)
 お願い | おねがい, richiesta, favore;  
 存在 | そんざい, esistenza | 現在 げんざい, ora, il presente;      
-xx屋 | xx-や negozio | ⚠️[教室](https://jisho.org/search/%E6%95%99%E5%AE%A4), きょうしつ aula 
+xx屋 | xx-や negozio | 屋⚠️室 [教室](https://jisho.org/search/%E6%95%99%E5%AE%A4), きょうしつ aula 
 [絵](https://jisho.org/search/%E7%B5%B5) | e: immagine           
-布 | ぬの stoffa | ⚠️ 市  いち,シ, mercato;  
+布 | ぬの stoffa | 布⚠️市  いち,シ, mercato;  
 混ぜる | まぜる, mescolare  
 悪 | warui; 必要 | ひつよう, necessità;  必ず、かならず  certamente
 要る | いる, necessario; iranai non necessario
 問題 | mondai | 話題  わだい wadai: topic; 内容  ないよう: contenuto
-住 | su (sundeiru)  | ⚠️ 注文     chuumon (ordine)
+住 | su (sundeiru)  | 住⚠️注 注文     chuumon (ordine)
 掃除 | souji  pulizie | (掃 scopa 除 rimuovere)
-笑 | warau (ridere) | ⚠️ 答       kotae
+笑 | warau (ridere) | 笑⚠️答       kotae
 練習 | renshuu      |  習う     narau, imparare / 教える, おしえる insegnare
 進む | susumu (shin) procedere
-写真 | shashin (foto) | ⚠️ 汚い きたない sporco; 汚れる よごれる: sporcarsi
+写真 | shashin (foto) | 写⚠️汚 汚い きたない sporco; 汚れる よごれる: sporcarsi
 研究 | kenkyuu ricerca
 観光 | kankou turismo 
-運転 | unten  運: | un: fortuna; ⚠️ 連; 2° girare (回転 kaiten-zushi)
+運転 | unten  運: | un: fortuna; 運⚠️連; 2° girare (回転 kaiten-zushi)
 連れて | tsureru, tsureteiku (accompagnare) | 連絡 れんらく: comunicare, contattare
 表す | 表: hyou tabella -> arawasu esprimere | 発表 happyou: presentazione 
 目的 | mokuteki, scopo, obiettivo,
