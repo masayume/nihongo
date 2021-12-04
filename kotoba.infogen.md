@@ -4,7 +4,8 @@ kotoba
 ＋tasu −hiku ×kakeru ÷waru ？hatena 〒yuubin bangou ♩onpu 
 € yuuro  〆shime ∞mugen ※komejirushi ♂osu ♀mesu ⚠️危険(きけん)
 
-
+* [https://emojipedia.org/](emojipedia)
+* [https://jisho.org/](jisho)
 
 machigai | significato | parole (dis)simili  
 -------- | ----------- | ------------------ 
