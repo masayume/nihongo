@@ -35,8 +35,8 @@ xx屋 | xx-や negozio | 屋⚠️室 [教室](https://jisho.org/search/%E6%95%9
 写真 | shashin (foto) | 写⚠️汚 汚い きたない sporco; 汚れる よごれる: sporcarsi
 研究 | kenkyuu ricerca
 観光 | kankou turismo 
-運転 | unten  運: | un: fortuna; 運⚠️連; 2° girare (回転 kaiten-zushi)
-連れて | tsureru, tsureteiku (accompagnare) | 連絡 れんらく: comunicare, contattare
+運転 | unten  運: | un: fortuna; 運⚠️連⬇️; 2° girare (回転 kaiten-zushi)
+連れて | tsureru, tsureteiku (accompagnare) | [連絡](https://jisho.org/search/%E9%80%A3%E7%B5%A1) れんらく: comunicare, contattare
 表す | 表: hyou tabella -> arawasu esprimere | 発表 happyou: presentazione 
 目的 | mokuteki, scopo, obiettivo,
 新聞 | shinbun (giornale)
