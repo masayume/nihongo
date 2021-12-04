@@ -2,7 +2,7 @@ kotoba
 
 ○maru □shikaku △sankaku ×batsu ◎nijuumaru ☆hoshi →yajirushi 
 ＋tasu −hiku ×kakeru ÷waru ？hatena 〒yuubin bangou ♩onpu 
-€ yuuro  〆shime ∞mugen ※komejirushi ♂osu ♀mesu 
+€ yuuro  〆shime ∞mugen ※komejirushi ♂osu ♀mesu ⚠️危険(きけん)
 
 
 
@@ -20,7 +20,7 @@ machigai | significato | parole (dis)simili
 予想 | よそう, previsione | 予約, prenotazione; 予定, piano (定: determinare, decidere)
 お願い | おねがい, richiesta, favore;  
 存在 | そんざい, esistenza | 現在 げんざい, ora, il presente;      
-xx屋 | xx-や negozio | 教室, きょうしつ aula 
+xx屋 | xx-や negozio | ⚠️教*室*, きょうしつ aula 
 絵 | e: immagine           
 布 | ぬの stoffa | [!] 市  いち,シ, mercato;  
 混ぜる | まぜる, mescolare  
