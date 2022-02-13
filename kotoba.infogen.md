@@ -503,6 +503,12 @@ weather
 嵐 		あらし stormy
 霧 		きり foggy
 
+満月 mangetsu 	- full moon
+半月 hangetsu 	- half moon
+三日月 mikazuki - crescent moon
+日食 nisshoku 	- eclipse
+流れ星 nagareboshi - shooting star
+
 Temperature of Liquid 
 熱過ぎる 		(あつすぎる atsusugiru) 	too hot
 熱い 		(あつい atsui) 			hot
