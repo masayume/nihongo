@@ -1,7 +1,7 @@
 # rei
 
 ## URL
-(google translate Jp -> En)(https://translate.google.com/?sl=ja&tl=en&text=%E8%B2%BB%E7%94%A8%E5%8A%B9%E6%9E%9C%E3%81%8C%E9%AB%98%E3%81%84&op=translate)
+[google translate Jp -> En](https://translate.google.com/?sl=ja&tl=en&text=%E8%B2%BB%E7%94%A8%E5%8A%B9%E6%9E%9C%E3%81%8C%E9%AB%98%E3%81%84&op=translate)
 
 ## esempi di frasi 
 
