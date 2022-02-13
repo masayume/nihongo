@@ -7,10 +7,24 @@ kotoba
 * [https://emojipedia.org/](emojipedia)
 * [https://jisho.org/](jisho)
 
+なるべく早く、来てください +/- possibile
+省略する　   しょうりゃく diminuire
+公　        こう    pubblico
+交通事故　こうつうじこ incidente stradale
+意識　いしき coscienza
+仕組み　しくみ meccanismo
+食費 しょくひ - 1か月の食費は、- spese mensili
+トレント自治県 ?
+しちょうそん comune, villaggio, 
+助ける たすける, aiutare
+コルクをぬく togliere il tappo
+状況　じょうきょう   stato, situazione
+計算機科学       けいさんきかがく    computer science
+
 machigai | significato | parole (dis)simili  
 -------- | ----------- | ------------------ 
 経験 | けいけん, esperienza | 試験:  shiken, esame 
-関係 | かんけい, relazione |
+関係 | かんけい, relazione | 関係ない non c'entra, irrilevante (関係無い)
 野菜 | やさい, verdura 
 週末 | しゅうまつ, weekend | (末:end): 末⚠️未:un-, not yet 
 未来/将来 | しょうらい/みらい  futuro prossimo/remoto 
