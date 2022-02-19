@@ -45,15 +45,16 @@ xx屋 | xx-や negozio | 屋⚠️室 [教室](https://jisho.org/search/%E6%95%9
 掃除 | souji  pulizie | (掃 scopa 除 rimuovere)
 笑 | warau (ridere) | 笑⚠️答       kotae
 練習 | renshuu      |  習う     narau, imparare / 教える, おしえる insegnare
-進む | susumu (shin) procedere | 進学 shingaku: essere promosso
 写真 | shashin (foto) | 写⚠️汚 汚い きたない sporco; 汚れる よごれる: sporcarsi
 研究 | kenkyuu ricerca
 確認 | kakunin, controllare, confermare
 運転 | unten  運: | un: fortuna; 運⚠️連⬇️; 2° girare (回転 kaiten-zushi)
+乱暴/慎重 | らんぼうな/しんちょうな 運転: guidare aggressivo/prudente
+進む | susumu (shin) procedere | 進学 shingaku: essere promosso
 連れて | tsureru, tsureteiku (accompagnare) | [連絡](https://jisho.org/search/%E9%80%A3%E7%B5%A1) れんらく: comunicare, contattare
+到着 | とうちゃく arrivo;
+観光 | kankou, turismo  | 旅行/旅  りょこう/tabi: viaggio
 出張 | しゅっちょう shucchou viaggio di lavoro | 緊張 きんちょう: essere teso
-到着 とうちゃく, arrivo;
-観光 | kankou, turismo 
 参加　| さんか partecipazione | 加える くわえる: aggiungere; 含む  ふくむ　includere
 相談 | soudan consultazione  
 表す | 表: hyou tabella -> arawasu esprimere | 発表 happyou: presentazione 
@@ -66,6 +67,19 @@ xx屋 | xx-や negozio | 屋⚠️室 [教室](https://jisho.org/search/%E6%95%9
 役に立つ | yakunitatsu: essere di aiuto | ⚠️約 di 予約 appuntamento
 現在 | げんざい: il presente
 健康 | けんこう salute | 健⚠️建物　たてもの
+希望 | きぼう: speranza
+経済　|   けいざい     economia | 政治, せいじ politica
+印象  | いんしょう　impressione
+対して |　taishite: nei confronti
+手続き | てつづき: procedura
+特別 | とくべつ: speciale | 特に とくに in particolare
+前者/後者 | zensha/kousha: former/latter
+感謝 | かんしゃ: ringraziare
+一般的 | いっぱんてき: in generale
+怒る/苛立つ | おこる/いらだつ: essere arrabbiato 
+一方 | ippou: d'altra parte
+馬鹿にする | ばかにする: prendere in giro
+誇る | ほこる: essere orgoglioso
 
 machigai | significato | parole (dis)simili  
 -------- | ----------- | ------------------ 
@@ -73,7 +87,6 @@ machigai | significato | parole (dis)simili
 行き先　	|	いきさき 		ikisaki destinazione,destinatario; sen/saki = anche LUOGO !
 競争　    |   きょうそう   competizione; 戦争 せんそう: guerra    
 判断　     |  はんだん     giudizio;     断る ことわる: rifiutare
-経済　    |   けいざい     economia
 電気代　  |   でんきだい   spese per la corrente
 輸出　	|	ゆしゅつ 		export;      輸入　ゆにゅう: import
 犬を飼う　|	かう 		allevare un animale
@@ -108,6 +121,12 @@ machigai | significato | parole (dis)simili
 犬を飼う  |   inu wo kau
 市場、    |   いちば（しじょう）mercato
 遠足      |  えんそく    gita scolastica
+
+contatori | significato | parole (dis)simili  
+-------- | ----------- | ------------------ 
+匹 | 一匹 いっぴき: un animale piccolo; ２匹 にひき 2 animali...
+頭 | 1頭 いっとう: un animale grande | 頭: testa
+
 
 元気 (な) げんき (な) - fine/energetic
 綺麗 (な) きれい (な) - clean/beautiful
@@ -467,7 +486,7 @@ positions
 右 みぎ - right        左 ひだり - left
 前 まえ - front        後ろ うしろ - behind/rear
 間 あいだ - between    中 なか - inside
-隣 となり - next to     側 そば - nearby
+隣 となり - next to     側 がわ,そば - vicino 側⚠️例　れい
 
 vento - kanji marked with * were invented in japan! these are called 国字 (こくじ, "national characters") or 和製漢字 (わせいかんじ, "japan-coined kanji")
 嵐 		[あらし] = storm
@@ -524,6 +543,10 @@ Temperature of Liquid
 冷たい 		(つめたい tsumetai) 		cold
 冷た過ぎる (つめたすぎる tsumetasugiru) too cold
 
+
+RARE | significato | parole (dis)simili  
+-------- | ----------- | ------------------ 
+怪獣 | kaijou: mostro
 
 
 onomatopoeia
