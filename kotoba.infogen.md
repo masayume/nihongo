@@ -28,12 +28,11 @@ machigai | significato | parole (dis)simili
 野菜 | やさい, verdura 
 週末 | しゅうまつ, weekend | (末:end): 末⚠️未:un-, not yet 
 未来/将来 | しょうらい/みらい  futuro prossimo/remoto 
-確認 | かくにん, controllare, confermare
-量 | りょう, quantità 
-送料 | そうりょう, spese di spedizione 
-平均 | へいきん, (statura) media 
-予想 | よそう, previsione | 予約, prenotazione; 予定, piano (定: determinare, decidere)
-お願い | おねがい, richiesta, favore;  
+量/質 | りょう ryou, quantità / しつ shitsu, qualità 
+平均 | へいきん, media (statura) 
+送料 | そうりょう, spese di spedizione | 手数料 てすうりょう　commissione
+送る/受ける | okuru/ukeru, spedire/ricevere | 受信, じゅしん ricevere 
+お願い | おねがい, richiesta, favore;  | 願⚠️頭 atama, testa
 存在 | そんざい, esistenza | 現在 げんざい, ora, il presente;      
 xx屋 | xx-や negozio | 屋⚠️室 [教室](https://jisho.org/search/%E6%95%99%E5%AE%A4), きょうしつ aula 
 [絵](https://jisho.org/search/%E7%B5%B5) | e: immagine           
@@ -46,17 +45,27 @@ xx屋 | xx-や negozio | 屋⚠️室 [教室](https://jisho.org/search/%E6%95%9
 掃除 | souji  pulizie | (掃 scopa 除 rimuovere)
 笑 | warau (ridere) | 笑⚠️答       kotae
 練習 | renshuu      |  習う     narau, imparare / 教える, おしえる insegnare
-進む | susumu (shin) procedere
+進む | susumu (shin) procedere | 進学 shingaku: essere promosso
 写真 | shashin (foto) | 写⚠️汚 汚い きたない sporco; 汚れる よごれる: sporcarsi
 研究 | kenkyuu ricerca
-観光 | kankou turismo 
+確認 | kakunin, controllare, confermare
 運転 | unten  運: | un: fortuna; 運⚠️連⬇️; 2° girare (回転 kaiten-zushi)
 連れて | tsureru, tsureteiku (accompagnare) | [連絡](https://jisho.org/search/%E9%80%A3%E7%B5%A1) れんらく: comunicare, contattare
+出張 | しゅっちょう shucchou viaggio di lavoro | 緊張 きんちょう: essere teso
+到着 とうちゃく, arrivo;
+観光 | kankou, turismo 
+参加　| さんか partecipazione | 加える くわえる: aggiungere; 含む  ふくむ　includere
+相談 | soudan consultazione  
 表す | 表: hyou tabella -> arawasu esprimere | 発表 happyou: presentazione 
 目的 | mokuteki, scopo, obiettivo,
 新聞 | shinbun (giornale)
 違う | chigau | = 異なる kotonaru: cambiare ()
-約束 | やくそく promessa | 予約 よやく: appuntamento; 到着: とうちゃく, arrivo;
+約束 | yakusoku, promessa | 予約 よやく: appuntamento; 
+工業,工場 | こうぎょう,こうじょう: industria, fabbrica
+予想 | よそう, previsione | 予約, prenotazione; 予定, piano (定: determinare, decidere)
+役に立つ | yakunitatsu: essere di aiuto | ⚠️約 di 予約 appuntamento
+現在 | げんざい: il presente
+健康 | けんこう salute | 健⚠️建物　たてもの
 
 machigai | significato | parole (dis)simili  
 -------- | ----------- | ------------------ 
@@ -69,13 +78,12 @@ machigai | significato | parole (dis)simili
 輸出　	|	ゆしゅつ 		export;      輸入　ゆにゅう: import
 犬を飼う　|	かう 		allevare un animale
 無くす	|	かぎをなくす　 smarrire
-緊張    	|	きんちょう 	essere teso
 勇気　	|	ゆうき 		coraggio
 自然　	|	しぜん 		natura
 解決　	|	かいけつ 		risolvere;   決める: decidere
 結果　	|	けっか 		risultato // 果物 くだもの // 結婚　けっこん
 起きる　	|	おきる 		svegliarsi, succedere
-入学　   |   にゅうがく    entrare a scuola
+入学　   |   にゅうがく    entrare a scuola | 進学　しんがく essere promosso
 期待する | 	きたい 		aspettativa, 期待する aspettarsi
 注文 	|	ちゅうもん	ordine
 発明　　	|	はつめい 		invenzione
@@ -92,7 +100,6 @@ machigai | significato | parole (dis)simili
 協力　	|	きょうりょく 	collaborazione
 努力　   |    どりょく     forza; = gambaru
 理解　	|	りかい 		comprensione
-参加　	|	さんか　 		partecipazione; partecipare
 結ぶ      |   むすぶ      annodare
 試       |    try
 行       |    go, do
@@ -383,7 +390,7 @@ libri
 
 
 メール (me-ru) email
-受信 	(jushin) receive
+受信 	(jushin) receive 
 送信 	(soushin) send
 保存 	(hozon) save
 削除 	(sakujo) delete
