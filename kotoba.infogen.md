@@ -38,7 +38,7 @@ xx屋 | xx-や negozio | 屋⚠️室 [教室](https://jisho.org/search/%E6%95%9
 [絵](https://jisho.org/search/%E7%B5%B5) | e: immagine           
 布 | ぬの stoffa | 布⚠️市  いち,シ, mercato;  
 混ぜる | まぜる, mescolare  
-悪 | warui; 必要 | ひつよう, necessità;  必ず、かならず  certamente
+悪 | warui;  | 必要 ひつよう, necessità;  必ず、かならず  certamente
 要る | いる, necessario; iranai non necessario
 問題 | mondai | 話題  わだい wadai: topic; 内容  ないよう: contenuto
 住 | su (sundeiru)  | 住⚠️注 注文     chuumon (ordine)
