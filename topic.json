@@ -1187,26 +1187,29 @@
       "translate": "TRANSLATE",
       "level": "N3"
     },
-    "sae.ba": {
+    "hodo/1": {
       "number": "190",
       "data_cat": "N3",
-      "class": ["N3", "masu"],
+      "class": ["N3", "negative"],
       "img": "001.png",
       "symbol": "～さえ～ば  ~",
-      "express": "if only ~ then..",
-      "example": "EXAMPLE",
-      "translate": "TRANSLATE",
+      "express": "is not ... like ...",
+      "example": "中国は　ロシアほど　大きくない",
+      "translate": "China is not larger than Russia",
       "level": "N3"
     },
-    "hodo": {
+    "hodo/2": {
       "number": "191",
       "data_cat": "N3",
       "class": ["N3", "masu"],
       "img": "001.png",
       "symbol": "ほど",
       "express": "To the extent",
-      "example": "EXAMPLE",
-      "translate": "TRANSLATE",
+      "example": "<u>死ぬほど</u>つかれた<br><u>死ぬほど</u>おなかがへった",
+      "examples": [
+        "<u>毎日食べられるほど</u>ジェラートが好きです:it's <u>I like ice cream so much I'd eat it everyday</u>"
+      ],
+      "translate": "tired/hungry to death",
       "level": "N3"
     },
     "mama": {
@@ -1271,6 +1274,17 @@
       "img": "001.png",
       "symbol": "～かえって",
       "express": "on the contrary",
+      "example": "EXAMPLE",
+      "translate": "TRANSLATE",
+      "level": "N3"
+    },
+    "sae.ba": {
+      "number": "190",
+      "data_cat": "N3",
+      "class": ["N3", "masu"],
+      "img": "001.png",
+      "symbol": "～さえ～ば  ~",
+      "express": "if only ~ then..",
       "example": "EXAMPLE",
       "translate": "TRANSLATE",
       "level": "N3"
