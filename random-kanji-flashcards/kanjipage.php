@@ -50,12 +50,12 @@ $page =<<< "EOP"
       </div>
     </div>
 
-  <button class="KanjiCard" id="card">
-    <p class="KanjiCard_kanji" id="kanji"></p>
-    <p class="KanjiCard_kana" id="kana"></p>
-    <p class="KanjiCard_translation" id="translation"></p>
-    <p class="KanjiCard_words" id="words"></p>
-  </button>
+    <div class="KanjiCard" id="card">
+      <p class="KanjiCard_kana" id="kana"></p>
+      <p class="KanjiCard_translation" id="translation"></p>
+      <button id="card"><p class="KanjiCard_kanji" id="kanji"></p></button>
+      <p class="KanjiCard_words" id="words"></p>
+    </div>
 
 </div>
 
@@ -77,7 +77,7 @@ $page =<<< "EOP"
     </div>
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.5.0/lodash.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script>
 
   <script src="php/kanji.php?file=$jsonfile"></script>

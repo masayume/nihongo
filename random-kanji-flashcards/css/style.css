@@ -57,52 +57,68 @@ button:focus {
     border-radius: 2px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
     outline: 0;
-    padding: 10px;
+    padding: 0px;
     text-align: center;
     z-index: 200;
 }
 
 .KanjiCard {
   width: 440px;
-  min-height: 560px;
+  min-height: 400px;
   text-align: center;
-  border-radius: 10px;
-  box-shadow: 0 4px 20px -3px gray;
-  padding: 6px;
+  border-radius: 30px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1),
+  0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1),
+  0 16px 16px rgba(0, 0, 0, 0.1);
+  padding: 0px;
   outline: none;
-  border: none;
   background-image: url("../img/back-01.jpg");
 }
 
 .KanjiCard-rotate {
   transform: rotateY(89.5deg);
 }
+
 .KanjiCard_kanji {
   position: relative;
-  top: -40px;
+  height: 300px;
+  top: -20px;
   font-size: 190pt;
-  padding: 10px;
+  padding: 0px;
   opacity: 0.8;
+  border-radius: 10px;
 }
+
+#card {
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.KanjiCard_kanji p {
+  padding: 0px;
+}
+
 .KanjiCard_kana {
   position: relative;
-  top: -50px;
+  top: 18px;
   font-size: 12pt;
-  padding: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
   opacity: 0.8;
 }
 .KanjiCard_translation {
   position: relative;
-  top: -50px;
+  top: 12px;
   font-size: 14pt;
   font-style: italic;
-  padding: 10px;
+  padding: 0px;
   opacity: 0.8;
 }
 .KanjiCard_words {
   position: relative;
-  top: -50px;
-  font-size: 12pt;
-  padding: 6px;  
+  top: -0px;
+  font-size: 14pt;
+  padding: 20px;  
   opacity: 0.9;
 }

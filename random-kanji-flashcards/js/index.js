@@ -21,7 +21,8 @@ var Card = (function Card(kanjilist) {
   
   
   function bindUI() {
-    $card.on("click", handleClick);  
+    // $card.on("click", handleClick);  
+    $kanjifield.on("click", handleClick);  
   }
   
   
