@@ -19,7 +19,7 @@ body{
     left: -15.625em; /*left or right and the width of your navigation panel*/
     width: 15.625em; /*should match the above value*/
     z-index: 100;
-        background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 .wrap {
@@ -37,14 +37,18 @@ a {
     right: 2px;
     top: 2px;
     font-size: 14pt;
-
 }
 
 #positionController {
     position: absolute;
     left: 2px;
-    top: 0px;
+    top: 2px;
     z-index: 300;
+}
+
+#controllerToggle {
+  padding: 6px;
+  font-size: 20pt;
 }
 
 button:focus {
@@ -107,9 +111,10 @@ button:focus {
   padding-right: 10px;
   opacity: 0.8;
 }
+
 .KanjiCard_translation {
   position: relative;
-  top: 12px;
+  top: 8px;
   font-size: 14pt;
   font-style: italic;
   padding: 0px;
@@ -119,6 +124,6 @@ button:focus {
   position: relative;
   top: -0px;
   font-size: 14pt;
-  padding: 20px;  
+  padding: 10px;  
   opacity: 0.9;
 }

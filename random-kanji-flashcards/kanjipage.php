@@ -1,6 +1,6 @@
 <?php
 
-$version = '1.0';
+$version = '1.1';
 
 $jfile = $_GET['jfile'];
 if (!$jfile) {

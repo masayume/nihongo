@@ -1,17 +1,19 @@
 UI: From A Pen created at CodePen.io. You can find this one at http://codepen.io/reccanti/pen/BjwOev.
- Displays a random kanji from the JLPT N5 kanji set. The set came from http://tangorin.com/vocabulary/20005 and was parsed by this script https://github.com/reccanti/TangorinCSVParser
+Displays a random kanji from the JLPT N5 kanji set. The set came from http://tangorin.com/vocabulary/20005 
+and was parsed by this script https://github.com/reccanti/TangorinCSVParser
 
 	RESOURCES:
-http://tangorin.com/kanji/+jlpt4 							N4 kanji + info
-http://tangorin.com/dict.php?dict=kanji&s=jlpt4 					(K1)
-http://tangorin.com/dict.php?dict=kanji&s=jlpt4&offset=25
-http://tangorin.com/dict.php?dict=kanji&s=jlpt4&offset=75			
-http://tangorin.com/dict.php?dict=kanji&s=jlpt4&offset=125 			
+  http://tangorin.com/kanji/+jlpt4 							  N4 kanji + info
+  http://tangorin.com/dict.php?dict=kanji&s=jlpt4 					(K1)
+  http://tangorin.com/dict.php?dict=kanji&s=jlpt4&offset=25
+  http://tangorin.com/dict.php?dict=kanji&s=jlpt4&offset=75			
+  http://tangorin.com/dict.php?dict=kanji&s=jlpt4&offset=125 			
 
-	http://tangorin.com/general/%E4%BC%9A 						general informations
+	http://tangorin.com/general/%E4%BC%9A 					general informations
 	http://tangorin.com/kanji/%E4%BC%9A 						kanji info
 
   TODO:
+- https://ikeryou.jp/sketch/380/ https://github.com/ikeryou/sketch380 from https://twitter.com/ikeryou/status/1662044709261570048
 - usare kanji.php invece di kanji.htm per caricare i vari js dei jlpt
 - verifiche presenza null nei file json/js ( 14 行 - 17 後 - 19 生 - 72 終 - 74 広 per N5)
 
