@@ -23,13 +23,13 @@ kotoba
 
 machigai | significato | parole (dis)simili  
 -------- | ----------- | ------------------ 
-経験 | けいけん, esperienza | 試験:  shiken, esame 
-関係 | かんけい, relazione | 関係ない non c'entra, irrilevante (関係無い)
+経験 | けいけん, esperienza | 試験:  shiken, esame; 経済: keizai, economia 
+関係 | かんけい, relazione | 関係ない "kankeinai" non c'entra, irrilevante (関係無い)
 野菜 | やさい, verdura 
 週末 | しゅうまつ, weekend | (末:end): 末⚠️未:un-, not yet 
 未来/将来 | しょうらい/みらい  futuro prossimo/remoto 
 量/質 | りょう ryou, quantità / しつ shitsu, qualità 
-平均 | へいきん, media (statura) 
+平均 | へいきん, media (statura) | 
 送料 | そうりょう, spese di spedizione | 手数料 てすうりょう　commissione
 送る/受ける | okuru/ukeru, spedire/ricevere | 受信, じゅしん ricevere 
 お願い | おねがい, richiesta, favore;  | 願⚠️頭 atama, testa
