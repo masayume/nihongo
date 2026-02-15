@@ -15,7 +15,7 @@ symbol | - | -
 ÷ | waru 
 ？ | hatena 
 〒 | yuubin 
-# | bangou 
+\# | bangou 
 ♩ | onpu 
 €  | yuuro 
 〆 | shime 
