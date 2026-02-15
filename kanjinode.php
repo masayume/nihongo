@@ -93,6 +93,111 @@
             backdrop-filter: blur(10px);
             font-size: 14px;
         }
+
+        #kanji-panel {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 16px;
+            padding: 30px;
+            min-width: 350px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            color: #333;
+            z-index: 2000;
+            opacity: 0;
+            scale: 0.8;
+            transition: all 0.3s ease;
+            pointer-events: none;
+        }
+
+        #kanji-panel.show {
+            opacity: 1;
+            scale: 1;
+            pointer-events: all;
+        }
+
+        #kanji-panel .kanji-display {
+            font-size: 80px;
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        #kanji-panel .info-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        #kanji-panel .info-label {
+            font-weight: bold;
+            color: #555;
+            min-width: 100px;
+        }
+
+        #kanji-panel .info-value {
+            color: #333;
+            flex: 1;
+            text-align: right;
+        }
+
+        #kanji-panel .connections-section {
+            margin-top: 20px;
+        }
+
+        #kanji-panel .connections-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        #kanji-panel .connection-item {
+            background: rgba(74, 144, 226, 0.1);
+            border: 1px solid rgba(74, 144, 226, 0.3);
+            border-radius: 6px;
+            padding: 5px 10px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        #kanji-panel .connection-item:hover {
+            background: rgba(74, 144, 226, 0.2);
+            transform: translateY(-1px);
+        }
+
+        #panel-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1999;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            pointer-events: none;
+        }
+
+        #panel-overlay.show {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        #kanji-panel .close-hint {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            color: #999;
+            font-size: 12px;
+        }
     </style>
 </head>
 <body>
@@ -107,34 +212,65 @@
         Drag to pan around the network
     </div>
 
+    <div id="panel-overlay"></div>
+    
+    <div id="kanji-panel">
+        <div class="close-hint">ESC or click outside to close</div>
+        <div class="kanji-display" id="panel-kanji">水</div>
+        <div class="info-row">
+            <span class="info-label">Meaning:</span>
+            <span class="info-value" id="panel-meaning">Water</span>
+        </div>
+        <div class="info-row">
+            <span class="info-label">Radical:</span>
+            <span class="info-value" id="panel-radical">水 (water)</span>
+        </div>
+        <div class="info-row">
+            <span class="info-label">Stroke Count:</span>
+            <span class="info-value" id="panel-strokes">4</span>
+        </div>
+        <div class="info-row">
+            <span class="info-label">Reading (On):</span>
+            <span class="info-value" id="panel-on">スイ</span>
+        </div>
+        <div class="info-row">
+            <span class="info-label">Reading (Kun):</span>
+            <span class="info-value" id="panel-kun">みず</span>
+        </div>
+        <div class="connections-section">
+            <div class="info-label">Connected Kanji:</div>
+            <div class="connections-list" id="panel-connections"></div>
+        </div>
+    </div>
+
     <div id="container"></div>
 
     <script>
         const kanjiData = {
-            '水': { meaning: 'Water', radical: '水', x: 400, y: 300, connections: ['氷', '河', '海', '泳'] },
-            '氷': { meaning: 'Ice', radical: '水', x: 300, y: 200, connections: ['水', '冷'] },
-            '河': { meaning: 'River', radical: '水', x: 500, y: 200, connections: ['水', '海', '川'] },
-            '海': { meaning: 'Sea', radical: '水', x: 600, y: 300, connections: ['水', '河', '波'] },
-            '泳': { meaning: 'Swim', radical: '水', x: 350, y: 400, connections: ['水', '游'] },
-            '川': { meaning: 'River', radical: '川', x: 550, y: 100, connections: ['河', '流'] },
-            '波': { meaning: 'Wave', radical: '水', x: 700, y: 250, connections: ['海'] },
-            '流': { meaning: 'Flow', radical: '水', x: 650, y: 150, connections: ['川', '河'] },
-            '冷': { meaning: 'Cold', radical: '冫', x: 200, y: 150, connections: ['氷'] },
-            '游': { meaning: 'Swim', radical: '水', x: 250, y: 450, connections: ['泳'] },
+            '水': { meaning: 'Water', radical: '水', x: 400, y: 300, connections: ['氷', '河', '海', '泳'], strokes: 4, on: 'スイ', kun: 'みず' },
+            '氷': { meaning: 'Ice', radical: '水', x: 300, y: 200, connections: ['水', '冷'], strokes: 5, on: 'ヒョウ', kun: 'こおり' },
+            '河': { meaning: 'River', radical: '水', x: 500, y: 200, connections: ['水', '海', '川'], strokes: 8, on: 'カ', kun: 'かわ' },
+            '海': { meaning: 'Sea', radical: '水', x: 600, y: 300, connections: ['水', '河', '波'], strokes: 9, on: 'カイ', kun: 'うみ' },
+            '泳': { meaning: 'Swim', radical: '水', x: 350, y: 400, connections: ['水', '游'], strokes: 8, on: 'エイ', kun: 'およ.ぐ' },
+            '川': { meaning: 'River', radical: '川', x: 550, y: 100, connections: ['河', '流'], strokes: 3, on: 'セン', kun: 'かわ' },
+            '波': { meaning: 'Wave', radical: '水', x: 700, y: 250, connections: ['海'], strokes: 8, on: 'ハ', kun: 'なみ' },
+            '流': { meaning: 'Flow', radical: '水', x: 650, y: 150, connections: ['川', '河'], strokes: 10, on: 'リュウ', kun: 'なが.れる' },
+            '冷': { meaning: 'Cold', radical: '冫', x: 200, y: 150, connections: ['氷'], strokes: 7, on: 'レイ', kun: 'つめ.たい' },
+            '游': { meaning: 'Swim', radical: '水', x: 250, y: 450, connections: ['泳'], strokes: 12, on: 'ユウ', kun: 'およ.ぐ' },
             
-            '火': { meaning: 'Fire', radical: '火', x: 800, y: 400, connections: ['炎', '燃', '熱'] },
-            '炎': { meaning: 'Flame', radical: '火', x: 900, y: 350, connections: ['火', '燃'] },
-            '燃': { meaning: 'Burn', radical: '火', x: 850, y: 500, connections: ['火', '炎'] },
-            '熱': { meaning: 'Heat', radical: '火', x: 750, y: 500, connections: ['火'] },
+            '火': { meaning: 'Fire', radical: '火', x: 800, y: 400, connections: ['炎', '燃', '熱'], strokes: 4, on: 'カ', kun: 'ひ' },
+            '炎': { meaning: 'Flame', radical: '火', x: 900, y: 350, connections: ['火', '燃'], strokes: 8, on: 'エン', kun: 'ほのお' },
+            '燃': { meaning: 'Burn', radical: '火', x: 850, y: 500, connections: ['火', '炎'], strokes: 16, on: 'ネン', kun: 'も.える' },
+            '熱': { meaning: 'Heat', radical: '火', x: 750, y: 500, connections: ['火'], strokes: 15, on: 'ネツ', kun: 'あつ.い' },
             
-            '木': { meaning: 'Tree', radical: '木', x: 100, y: 300, connections: ['森', '林', '材'] },
-            '森': { meaning: 'Forest', radical: '木', x: 50, y: 200, connections: ['木', '林'] },
-            '林': { meaning: 'Woods', radical: '木', x: 150, y: 200, connections: ['木', '森'] },
-            '材': { meaning: 'Material', radical: '木', x: 100, y: 400, connections: ['木'] },
+            '木': { meaning: 'Tree', radical: '木', x: 100, y: 300, connections: ['森', '林', '材'], strokes: 4, on: 'ボク', kun: 'き' },
+            '森': { meaning: 'Forest', radical: '木', x: 50, y: 200, connections: ['木', '林'], strokes: 12, on: 'シン', kun: 'もり' },
+            '林': { meaning: 'Woods', radical: '木', x: 150, y: 200, connections: ['木', '森'], strokes: 8, on: 'リン', kun: 'はやし' },
+            '材': { meaning: 'Material', radical: '木', x: 100, y: 400, connections: ['木'], strokes: 7, on: 'ザイ', kun: '材料' },
             
-            '山': { meaning: 'Mountain', radical: '山', x: 400, y: 600, connections: ['峰', '岩'] },
-            '峰': { meaning: 'Peak', radical: '山', x: 350, y: 700, connections: ['山'] },
-            '岩': { meaning: 'Rock', radical: '山', x: 450, y: 700, connections: ['山'] }
+            '山': { meaning: 'Mountain', radical: '山', x: 400, y: 600, connections: ['峰', '岩'], strokes: 3, on: 'サン', kun: 'やま' },
+            '峰': { meaning: 'Peak', radical: '山', x: 350, y: 700, connections: ['山'], strokes: 10, on: 'ホウ', kun: 'みね' },
+            '岩': { meaning: 'Rock', radical: '山', x: 450, y: 700, connections: ['山'], strokes: 8, on: 'ガン', kun: 'いわ' }
         };
 
         let currentCenter = '水';
@@ -158,7 +294,7 @@
             
             tile.addEventListener('click', (e) => {
                 e.stopPropagation();
-                centerOnTile(kanji);
+                showKanjiPanel(kanji);
             });
             
             return tile;
@@ -215,6 +351,52 @@
             container.style.transform = `translate(${translateX}px, ${translateY}px)`;
         }
 
+        function showKanjiPanel(kanji) {
+            if (!kanjiData[kanji]) return;
+            
+            const data = kanjiData[kanji];
+            const panel = document.getElementById('kanji-panel');
+            const overlay = document.getElementById('panel-overlay');
+            
+            // Update panel content
+            document.getElementById('panel-kanji').textContent = kanji;
+            document.getElementById('panel-meaning').textContent = data.meaning;
+            document.getElementById('panel-radical').textContent = `${data.radical} (${getRadicalMeaning(data.radical)})`;
+            document.getElementById('panel-strokes').textContent = data.strokes;
+            document.getElementById('panel-on').textContent = data.on;
+            document.getElementById('panel-kun').textContent = data.kun;
+            
+            // Update connections
+            const connectionsList = document.getElementById('panel-connections');
+            connectionsList.innerHTML = '';
+            data.connections.forEach(connectedKanji => {
+                if (kanjiData[connectedKanji]) {
+                    const connectionItem = document.createElement('div');
+                    connectionItem.className = 'connection-item';
+                    connectionItem.textContent = connectedKanji;
+                    connectionItem.addEventListener('click', () => {
+                        hideKanjiPanel();
+                        setTimeout(() => showKanjiPanel(connectedKanji), 100);
+                    });
+                    connectionsList.appendChild(connectionItem);
+                }
+            });
+            
+            // Show panel
+            overlay.classList.add('show');
+            panel.classList.add('show');
+            
+            // Also center the view on this kanji
+            centerOnTile(kanji);
+        }
+
+        function hideKanjiPanel() {
+            const panel = document.getElementById('kanji-panel');
+            const overlay = document.getElementById('panel-overlay');
+            panel.classList.remove('show');
+            overlay.classList.remove('show');
+        }
+
         function centerOnTile(kanji) {
             if (!kanjiData[kanji]) return;
             
@@ -243,6 +425,16 @@
             return radicalMeanings[radical] || 'radical';
         }
 
+        // Panel close functionality
+        document.getElementById('panel-overlay').addEventListener('click', hideKanjiPanel);
+        
+        // ESC key to close panel
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                hideKanjiPanel();
+            }
+        });
+
         // Drag functionality
         container.addEventListener('mousedown', (e) => {
             if (e.target.classList.contains('tile')) return;
@@ -269,214 +461,3 @@
     </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-https://huggingface.co/spaces/GamerIsaac/Pixel-Art-Converter-V.2
-
-
-
-
-    "  // 416",
-    "  // 417",
-    "  // 418",
-    "  // 419",
-    "  // 420",
-    "  // 421",
-    "  // 422",
-    "  // 423",
-    "  // 424",
-    "  // 425",
-    "  // 426",
-    "  // 427",
-    "  // 428",
-    "  // 429",
-    "  // 430",
-
-https://huggingface.co/spaces/NoCrypt/pixelization
-https://github.com/AUTOMATIC1111/stable-diffusion-webui-pixelization
-https://portaly.cc/patpixels
-
-
-https://codepen.io/Petr-Knoll/pen/QwWLZdx   glass button
- 
-https://en.wikipedia.org/wiki/Atkinson_dithering  
-Floyd Steinberg
-http://ditherit.com/
-
-https://micku7zu.github.io/vanilla-tilt.js/
-https://aresluna.org/the-hardest-working-font-in-manhattan/
-
-feature: 2bit button
-
-楽 鼠 柄 ♥
-
- ./mysqlrouter --bootstrap 'clusteradmin:St0suC4zz0!@mysql107a.private.cineca.it:3306' --user=mysqlrouter --directory /opt/mysqlrouter107/conf --conf-base-port 11071 --name mysqlrouter107 --force
-
-
-https://bsky.app/profile/ambermechanic.bsky.social
-https://bsky.app/profile/batfeula.bsky.social
-https://bsky.app/profile/chelfaust.bsky.social
-https://bsky.app/profile/chrysope.bsky.social
-https://bsky.app/profile/trick17.bsky.social  (fabian)
-https://bsky.app/profile/hby.bsky.social
-https://bsky.app/profile/kianamosser.bsky.social
-https://bsky.app/profile/ktwfc.bsky.social
-https://bsky.app/profile/lisnovski.bsky.social
-https://bsky.app/profile/lordsovorn.bsky.social
-https://bsky.app/profile/maxattacks.bsky.social
-https://bsky.app/profile/moonfell-rpg.com
-https://bsky.app/profile/nanadragon4.bsky.social
-https://bsky.app/profile/neoriceisgood.bsky.social
-https://bsky.app/profile/noppixels.bsky.social
-https://bsky.app/profile/pc98bot.gang-fight.com
-https://bsky.app/profile/phon.bsky.social
-https://bsky.app/profile/pixelflag.bsky.social
-https://bsky.app/profile/theblindarcher.bsky.social
-
-
-# ldap
-ldap.search.base.user =
-ldap.search.base.group = ou=groups
-ldap.url = ldap://ldap.cineca.it:389
-ldap.base = o=cineca,c=it
-#ldap.auth.user.dn = cn=crowd-user,ou=system-user,o=cineca,c=it
-#ldap.auth.user.pwd = '##-=_w800mXtyUN'
-ldap.auth.user.dn = cn=ugov-reader,ou=ugov,ou=univ,o=cineca,c=it 
-ldap.auth.user.pwd = vxxGLhF3q!LHh8rHG 
-ldap.bind.user.filter = (|(mail=%s)(uid=%s))
-ldap.search.user.filter = mail 
-
-.
-├── authorizations.properties
-├── environment.properties
-├── ldap.properties
-
-
-ldap.auth.user.pwd = ##-=_w800mXtyUN
--Dit.cineca.toolbox.ldap.file=/production/toolbox-war/ldap.properties
-
-
-
-https://boardgamegeek.com/boardgame/332321/alien-fate-of-the-nostromo
-
-"Action Points", "Cooperative Game", "Pick-up and Deliver", "Variable Player Powers"
-
-
-TODO:   icons
-<i class="fa-solid fa-floppy-disk"></i>
-
-TODO:   sliders with value https://codepen.io/t_afif/pen/JjqNEbZ
-TODO:   computazione della funzione MIXED, per quadranti / colorazioni
-TODO:   save sections
-TODO:   save with frame and title (string)
-TODO:   https://codepen.io/hexagoncircle/pen/ogvoXpx  Happy New Year 2025 — CSS Paint API
-TODO:   https://codepen.io/lekzd/pen/emOKZMv          design a rug
-TODO:   https://www.youtube.com/watch?v=-Q-Ngn_FY84   LCD monitor shader
-TODO:   https://www.youtube.com/watch?v=e06OM1XonA8   I Tried Making a Real-Time Painterly Renderer, Van Gogh Style
-TODO:   https://www.youtube.com/watch?v=SlS3FOmKUbE   Smaller Than Pixel Art: Sub-Pixel Art!
-
-milena: https://huggingface.co/spaces/BoyuanJiang/FitDiT
-
-URLs:
-http://localhost:8912/1bit-pattern-gen/
-https://masayume.it/1bit-pattern-gen/
-
-patterns: https://mastodon.social/@vga_gradients
-http://vectorpoem.com/bots/#gradients
-
-clipboard: DATA/E/Temp/clipboard.txt
-
-https://huggingface.co/spaces/hexgrad/Kokoro-TTS
-
-
-
-function floydSteinbergDither(imageData, width, height) {
-  const data = imageData.data;
-
-  function getPixelIndex(x, y) {
-    return (y * width + x) * 4;
-  }
-
-  function getPixelValue(x, y) {
-    if (x < 0 || x >= width || y < 0 || y >= height) {
-      return 0; // Out of bounds, treat as black
-    }
-    const index = getPixelIndex(x, y);
-    return data[index] / 255; // Convert 0-255 to 0-1
-  }
-
-  function setPixelValue(x, y, value) {
-    if (x < 0 || x >= width || y < 0 || y >= height) {
-      return; // Out of bounds, do nothing
-    }
-    const index = getPixelIndex(x, y);
-    data[index] = Math.round(value * 255);
-    data[index + 1] = Math.round(value * 255); // Grayscale, so R=G=B
-    data[index + 2] = Math.round(value * 255);
-  }
-
-  for (let y = 0; y < height; y++) {
-    for (let x = 0; x < width; x++) {
-      const oldValue = getPixelValue(x, y);
-      const newValue = Math.round(oldValue); // 0 or 1
-      setPixelValue(x, y, newValue);
-      const error = oldValue - newValue;
-
-      // Distribute error
-      setPixelValue(x + 1, y, getPixelValue(x + 1, y) + error * (7 / 16));
-      setPixelValue(x - 1, y + 1, getPixelValue(x - 1, y + 1) + error * (3 / 16));
-      setPixelValue(x, y + 1, getPixelValue(x, y + 1) + error * (5 / 16));
-      setPixelValue(x + 1, y + 1, getPixelValue(x + 1, y + 1) + error * (1 / 16));
-    }
-  }
-  return imageData;
-}
-
-// Example usage (assuming you have a canvas and 2D context):
-
-function applyFloydSteinberg(canvas){
-    const ctx = canvas.getContext('2d');
-    const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
-    const ditheredImageData = floydSteinbergDither(imageData, canvas.width, canvas.height);
-    ctx.putImageData(ditheredImageData, 0, 0);
-}
-
-//Example of how to make a test canvas and image:
-
-function createTestImage(canvas){
-    const ctx = canvas.getContext('2d');
-    const gradient = ctx.createLinearGradient(0, 0, canvas.width, 0);
-    gradient.addColorStop(0, 'black');
-    gradient.addColorStop(1, 'white');
-    ctx.fillStyle = gradient;
-    ctx.fillRect(0, 0, canvas.width, canvas.height);
-}
-
-//Example of how to use it all together.
-function example(){
-    const canvas = document.createElement('canvas');
-    canvas.width = 256;
-    canvas.height = 256;
-    document.body.appendChild(canvas);
-    createTestImage(canvas);
-    applyFloydSteinberg(canvas);
-}
-
-example();
-
