@@ -1,4 +1,4 @@
-kotoba
+# symbols
 
 symbol | - | -
 -------- | ----------- | ------------------ 
@@ -42,12 +42,12 @@ symbol | - | -
 
 symbol | - | -
 -------- | ----------- | ------------------ 
-🟡 球体 	 | (きゅうたい kyuutai) 	 | sphere
-👁 眼球 	 | (がんきゅう gankyuu) 	 | eyeballs
-⚾️ 野球 	 | (やきゅう yakyuu) 		 | baseball
-🏓 卓球 	 | (たっきゅう takkyuu) 	 | table tennis
-🌏 地球 	 | (ちきゅう chikyuu) 	 | Earth
-🐾 肉球 	 | (にくきゅう nikukyuu)  |  paw pads
+🟡 	     | 球体  (きゅうたい kyuutai) 	 | sphere
+👁 	     | 眼球  (がんきゅう gankyuu) 	 | eyeballs
+⚾️ 	     | 野球  (やきゅう yakyuu)     | baseball
+🏓 	     | 卓球  (たっきゅう takkyuu) 	 | table tennis
+🌏 	     | 地球  (ちきゅう chikyuu) 	 | Earth
+🐾 	     | 肉球  (にくきゅう nikukyuu) |  paw pads
 
 
 * [https://emojipedia.org/](emojipedia)
