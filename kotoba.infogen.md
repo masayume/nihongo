@@ -1,8 +1,4 @@
-kotoba
-
-○maru □shikaku △sankaku ×batsu ◎nijuumaru ☆hoshi →yajirushi 
-＋tasu −hiku ×kakeru ÷waru ？hatena 〒yuubin bangou ♩onpu 
-€ yuuro  〆shime ∞mugen ※komejirushi ♂osu ♀mesu ⚠️危険(きけん)
+# kotoba
 
 * [https://emojipedia.org/](emojipedia)
 * [https://jisho.org/](jisho)
